@@ -1,5 +1,5 @@
 import Color from "./atoms/Color/Color";
-import { Spacing } from "@ds.e/foundation";
 import Text from "./atoms/Text/Text";
+import Select from './molecules/Select'
 
-export { Color, Spacing, Text }
+export { Color, Text, Select }
