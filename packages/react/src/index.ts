@@ -1,3 +1,5 @@
-import Button from "./atoms/Button/Button";
+import Color from "./atoms/Color/Color";
+import { Spacing } from "@ds.e/foundation";
+import Text from "./atoms/Text/Text";
 
-export {Button}
+export { Color, Spacing, Text }

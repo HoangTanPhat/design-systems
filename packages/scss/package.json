@@ -10,6 +10,7 @@
     "husky": "^8.0.3",
     "lint-staged": "^13.2.2",
     "node-sass": "^9.0.0",
+    "nodemon": "^2.0.22",
     "prettier": "^2.8.8",
     "stylelint": "^15.7.0",
     "stylelint-config-prettier": "^9.0.5",
@@ -19,7 +20,8 @@
   "scripts": {
     "build": "node src/scripts/build.js",
     "lint": "stylelint './**/*.scss'",
-    "lint:fix": "yarn lint --fix"
+    "lint:fix": "yarn lint --fix",
+    "dev": "nodemon --watch src --exec yarn build -e scss"
   },
   "husky": {
     "hooks": {
